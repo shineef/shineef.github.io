@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -61,4 +62,9 @@ footer {
 
 .project .media {
     flex: 1;
+}
+
+.project .media img {
+    max-width: 30%; /* adjust as needed */
+    height: auto;
 }
