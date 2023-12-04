@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -47,4 +48,18 @@ footer {
     background-color: #ddd;
     padding: 15px;
     margin-bottom: 10px;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.project .description {
+    flex: 0 0 60%; /* adjust as needed */
+}
+
+.project .media {
+    flex: 1;
 }
