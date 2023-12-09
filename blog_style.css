@@ -93,3 +93,12 @@ ul li {
     margin-bottom: 5px;
     border-radius: 5px;
 }
+
+.maintenance-notice {
+    background-color: #ffcc00; 
+    color: black; 
+    text-align: center; 
+    padding: 10px 0; /* fill up and down */
+    font-size: 1.2em; /* larger font size */
+    border-bottom: 2px solid #e8491d; /* bottom border */
+}
