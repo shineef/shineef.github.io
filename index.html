@@ -14,106 +14,119 @@
 </head>
 <body>
     <header>
-        <h1>Welcome!</h1>
+        <h1>Xinyi's Odyssey</h1>
     </header>
     <nav>
         <ul>
             <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Project</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
             <li class="hidden-display"><a href="blog.html">Blog</a></li>
         </ul>
     </nav>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am currently pursuing a Master of Science in Computer Science at Worcester Polytechnic Institute, where my academic 
-            journey and research endeavors are deeply entrenched in the realms of Machine Learning, Artificial Intelligence, and 
-            Cloud Computing. My interest not only spans these pivotal areas but has recently honed in on the exploration and advancement
-             of Large Language Models (LLMs).</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <div class="description">
-                <h3><a href="https://github.com/shineef/rl">Reinforcement Learning</a></h3>
-                <p>I have developed and implemented a range of algorithms designed for autonomous mastery in gaming applications. 
-                    These include the Markov Decision Process, Monte Carlo methods, Temporal Difference learning, 
-                    and Duelling Double Deep Q-Networks, among others. This work focused on leveraging these sophisticated techniques 
-                    to enhance decision-making and strategy formulation in complex game environments. A significant aspect of 
-                    my work involved enhancing the replay memory mechanism and other components of the DQN method, thereby 
-                    improving the overall efficacy and performance of these machine learning models in complex simulations.</p>
-            </div>
-            <div class="media">
-                <img src="https://github.com/shineef/rl/blob/main/Project3_image/396.png?raw=true" alt="Project image1" style="max-width: 29.55%;">
-                <img src="https://github.com/shineef/rl/blob/main/Project3_image/473.png?raw=true" alt="Project image2">
-                <video controls>
-                    <source src="https://github.com/shineef/rl/blob/main/Project3_image/breakout.mp4?raw=true" type="video/mp4">
-                </video>
-            </div>
-        </div>
-        <div class="project">
-            <div class="description">
-                <h3><a href="https://github.com/shineef/NLP">Natural Language Process</a></h3>
-                <p>In this project, I explored the characteristics of real and fake news using various Natural Language Processing (NLP) techniques.
-                     The primary goal was to identify patterns and features that distinguish authentic news content from fabricated stories. Utilized 
-                     techniques such as TF-IDF, sentiment analysis, part-of-speech tagging, and word embeddings to prepare the data for modeling.</p>
-                     <h4>Data Exploration and Preprocessing</h4>
-                     <p>Investigated the most commonly used words in real and fake news articles to understand initial patterns.</p>
-                     <h4>Feature Engineering</h4>
-                     <p>Utilized techniques such as TF-IDF, sentiment analysis, part-of-speech tagging, and word embeddings to prepare the data for modeling.</p>
-                     <h4>Model Building</h4>
-                     <p>Experimented with multiple machine learning models including Logistic Regression, Naive Bayes, Support Vector Machines, Convolutional Neural Networks, Recurrent Neural Networks, and Long Short-Term Memory (LSTM) networks to classify news articles.</p>
-                     <h4>Results</h4>
-                     <p>The LSTM model outperformed others, achieving remarkable precision, recall, and accuracy metrics in classifying news articles, with an accuracy exceeding 99.6%.</p>
-            </div>
-            <div class="media">
-                <img src="https://github.com/shineef/NLP/blob/main/Project1/real_news_title_wordcloud_B.png?raw=true" alt="real cloud image" style="max-width: 86%;">
-                <img src="https://github.com/shineef/NLP/blob/main/Project1/fake_news_title_wordcloud_B.png?raw=true" alt="fake cloud image" style="max-width: 86%;">
-            </div>
-        </div>
-        <div class="project">
-            <div class="description">
-                <h3><a href="https://github.com/shineef/Recommender-System">Information Retrieval</a></h3>
-                <p>In my journey of developing recommender systems, I considered the realm of item-based collaborative filtering and matrix 
-                    factorization. It was designed using various similarity metrics to optimize recommendations. This technique revolves around 
-                    the concept of understanding and leveraging the relationships between different items based on user interactions and preferences.</p>
-                <p>Taking the system a notch higher, I ventured into the integration of advanced deep learning methods. This included 
-                    the implementation of Neural Collaborative Filtering (NCF) and Transformer models. The incorporation of NCF allowed me 
-                    to blend the classic matrix factorization approach with deep neural networks. In addition to utilizing Transformer models 
-                    in my recommender system, where their capacity to handle complex dependencies in natural language processing, I am 
-                    exploring further applications.</p>
-                    <!-- <img src="https://github.com/shineef/info-retri/blob/main/NCF/NCF_architecture.png?raw=true?raw=true" alt="NCF image" style="max-width: 56%;"> -->
-                    <!-- <img src="https://github.com/shineef/info-retri/blob/main/MF/MF_architecture.png?raw=true" alt="MF image" style="max-width: 42%;"> -->
-            </div>
-            <div class="media">
-                <!-- <img src="https://github.com/shineef/info-retri/blob/main/transformer/transformer_architecture.png?raw=true" alt="Project image" style="max-width: 65%;"> -->
-            </div>
-        </div>
-        <div>
-            <h3><a href="https://github.com/shineef/Image-Identification">Computer Vision</a></h3>
-            <p>With a background in image processing and pattern recognition, I have mastered advanced techniques such as 
-                Generative Adversarial Networks (GANs) and Transformers. My competence in image processing includes the ability 
-                to discern symbols within images and adeptly utilize classification algorithms like KNN and Rocchio. 
-                Additionally, my portfolio includes diverse projects, such as handwriting recognition, where I have applied 
-                these skills to achieve precise and effective outcomes.</p>
-        </div>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Should you wish to discuss any potential collaboration or require further information, please feel free to reach out 
-            to me through my institute email address. </p>
-        <p>Additionally, you can leave a message for me in the box provided below. 
-            Please note that it may take a little longer for me to respond.</p>
-        <form action="https://formspree.io/f/xjvqnror" method="post">
-            <label for="name">Your name: </label>
-            <input type="text" id="name" name="name"><br>
-            <label for="email">Your email: </label>
-            <input type="email" id="email" name="email"><br>
-            <label for="message">Your message:</label>
-            <textarea id="message" name="message" rows="10" cols="80"></textarea><br>
-            <input type="submit" value="submit">
-        </form>
-    </section>
+    <div class="container">
+        <aside id="sidebar">
+            <section id="about">
+                <h2>About Me</h2>
+                <img src="https://github.com/shineef.png" alt="Your Photo" class="profile-photo">
+                <p>I am currently pursuing a Master of Science in Computer Science at Worcester Polytechnic Institute</p>
+                <p>where my academic journey and research endeavors are deeply entrenched in the realms of Machine Learning, Artificial Intelligence, and 
+                    Cloud Computing. My interest not only spans these pivotal areas but has recently honed in on the exploration and advancement
+                    of Large Language Models (LLMs).</p>
+            </section>
+        </aside>
+        <main id="main-content">
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="project">
+                    <div class="description">
+                        <h3><a href="https://github.com/shineef/rl">Reinforcement Learning</a></h3>
+                        <p>I have developed and implemented a range of algorithms designed for autonomous mastery in gaming applications. 
+                            These include the Markov Decision Process, Monte Carlo methods, Temporal Difference learning, 
+                            and Duelling Double Deep Q-Networks, among others. This work focused on leveraging these sophisticated techniques 
+                            to enhance decision-making and strategy formulation in complex game environments. A significant aspect of 
+                            my work involved enhancing the replay memory mechanism and other components of the DQN method, thereby 
+                            improving the overall efficacy and performance of these machine learning models in complex simulations.</p>
+                    </div>
+                    <div class="media">
+                        <img src="https://github.com/shineef/rl/blob/main/Project3_image/396.png?raw=true" alt="Project image1" style="max-width: 29.55%;">
+                        <img src="https://github.com/shineef/rl/blob/main/Project3_image/473.png?raw=true" alt="Project image2">
+                        <video controls>
+                            <source src="https://github.com/shineef/rl/blob/main/Project3_image/breakout.mp4?raw=true" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="description">
+                        <h3><a href="https://github.com/shineef/NLP">Natural Language Process</a></h3>
+                        <p>In this project, I explored the characteristics of real and fake news using various Natural Language Processing (NLP) techniques.
+                             The primary goal was to identify patterns and features that distinguish authentic news content from fabricated stories. Utilized 
+                             techniques such as TF-IDF, sentiment analysis, part-of-speech tagging, and word embeddings to prepare the data for modeling.</p>
+                             <h4>Data Exploration and Preprocessing</h4>
+                             <p>Investigated the most commonly used words in real and fake news articles to understand initial patterns.</p>
+                             <h4>Feature Engineering</h4>
+                             <p>Utilized techniques such as TF-IDF, sentiment analysis, part-of-speech tagging, and word embeddings to prepare the data for modeling.</p>
+                             <h4>Model Building</h4>
+                             <p>Experimented with multiple machine learning models including Logistic Regression, Naive Bayes, Support Vector Machines, Convolutional Neural Networks, Recurrent Neural Networks, and Long Short-Term Memory (LSTM) networks to classify news articles.</p>
+                             <h4>Results</h4>
+                             <p>The LSTM model outperformed others, achieving remarkable precision, recall, and accuracy metrics in classifying news articles, with an accuracy exceeding 99.6%.</p>
+                    </div>
+                    <div class="media">
+                        <img src="https://github.com/shineef/NLP/blob/main/Project1/real_news_title_wordcloud_B.png?raw=true" alt="real cloud image" style="max-width: 86%;">
+                        <img src="https://github.com/shineef/NLP/blob/main/Project1/fake_news_title_wordcloud_B.png?raw=true" alt="fake cloud image" style="max-width: 86%;">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="description">
+                        <h3><a href="https://github.com/shineef/Recommender-System">Information Retrieval</a></h3>
+                        <p>In my journey of developing recommender systems, I considered the realm of item-based collaborative filtering and matrix 
+                            factorization. It was designed using various similarity metrics to optimize recommendations. This technique revolves around 
+                            the concept of understanding and leveraging the relationships between different items based on user interactions and preferences.</p>
+                        <p>Taking the system a notch higher, I ventured into the integration of advanced deep learning methods. This included 
+                            the implementation of Neural Collaborative Filtering (NCF) and Transformer models. The incorporation of NCF allowed me 
+                            to blend the classic matrix factorization approach with deep neural networks. In addition to utilizing Transformer models 
+                            in my recommender system, where their capacity to handle complex dependencies in natural language processing, I am 
+                            exploring further applications.</p>
+                            <!-- <img src="https://github.com/shineef/info-retri/blob/main/NCF/NCF_architecture.png?raw=true?raw=true" alt="NCF image" style="max-width: 56%;"> -->
+                            <!-- <img src="https://github.com/shineef/info-retri/blob/main/MF/MF_architecture.png?raw=true" alt="MF image" style="max-width: 42%;"> -->
+                    </div>
+                    <div class="media">
+                        <!-- <img src="https://github.com/shineef/info-retri/blob/main/transformer/transformer_architecture.png?raw=true" alt="Project image" style="max-width: 65%;"> -->
+                    </div>
+                </div>
+                <div>
+                    <h3><a href="https://github.com/shineef/Image-Identification">Computer Vision</a></h3>
+                    <p>With a background in image processing and pattern recognition, I have mastered advanced techniques such as 
+                        Generative Adversarial Networks (GANs) and Transformers. My competence in image processing includes the ability 
+                        to discern symbols within images and adeptly utilize classification algorithms like KNN and Rocchio. 
+                        Additionally, my portfolio includes diverse projects, such as handwriting recognition, where I have applied 
+                        these skills to achieve precise and effective outcomes.</p>
+                </div>
+            </section>
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Should you wish to discuss any potential collaboration or require further information, please feel free to reach out 
+                    to me through my institute email address. </p>
+                <p>Additionally, you can leave a message for me in the box provided below. 
+                    Please note that it may take a little longer for me to respond.</p>
+                <form action="https://formspree.io/f/xjvqnror" method="post">
+                    <div class="input-group">
+                        <label for="name">Your name:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Your email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Your message:</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+                    <button type="submit">submit</button>
+                </form>
+            </section>
+        </main>
+    </div>
     <footer>
         <p>Copyright &copy; 2023 Xinyi Fang. All rights reserved.</p>
     </footer>
