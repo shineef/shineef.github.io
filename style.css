@@ -214,6 +214,10 @@ textarea {
     }
   }
 
+.prof {
+    white-space: nowrap;
+  }
+
 .icon-links {
     display: flex;
     justify-content: left;
