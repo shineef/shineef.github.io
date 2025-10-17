@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: #50b3a2;
+    background: #0074F0;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -41,6 +41,16 @@ footer {
     padding: 10px;
     background: #333;
     color: white;
+}
+
+a {
+    color: #007BFF; /* Change text color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: #0056b3; /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover */
 }
 
 .project {
