@@ -92,7 +92,8 @@ a:hover {
 #sidebar {
     position: sticky; 
     top: 0;
-    width: 236px;
+    /* width: 236px; */
+    width: 277px;
     height: calc(100vh - 60px); 
     background-color: #f4f4f4;
     padding: 20px;
