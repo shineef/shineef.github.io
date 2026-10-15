@@ -1,0 +1,241 @@
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    /* background: #0074F0; */
+    background: #9AC4FB;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    background: #333;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    /* padding: 10px; */
+    padding: 0.1px;
+    background: #333;
+    color: white;
+}
+
+a {
+    color: #007BFF; /* Change text color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: #0056b3; /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project .description {
+    margin-bottom: 10px;
+}
+
+.project .media {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.project .media img,
+.project .media video {
+    max-width: 48%; 
+    height: auto; 
+    width: auto;
+    max-height: 200px;
+}
+
+ul {
+      list-style-type: disc;
+    }
+
+.ta {
+    margin-bottom: 50px;
+}
+
+.Brandeis h3 {
+  color: #003478; /* Brandeis Blue */
+}
+
+.WPI h3 {
+  color: #AC2B37; /* WPI Red */
+}
+
+.hidden-display {
+    display: none;
+}
+
+.hidden-visibility {
+    visibility: hidden;
+}
+
+.container {
+    display: flex;
+    margin-top: 20px; 
+    justify-content: center;
+}
+
+#sidebar {
+    position: sticky; 
+    top: 0;
+    /* width: 236px; */
+    width: 277px;
+    height: calc(100vh - 60px); 
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    overflow-y: auto; 
+}
+
+#main-content {
+    margin-left: 60px; 
+    padding: 20px;
+    max-width: 1000px; 
+    flex: 1;
+    overflow-y: auto; 
+}
+
+.profile-photo {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%; /* Circular photo */
+    margin-bottom: 20px;
+}
+
+#contact {
+    background-color: #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%; 
+    max-width: 200px; 
+}
+
+.input-group textarea {
+    width: 100%; 
+    max-width: 500px; 
+    height: 120px; 
+}
+
+textarea {
+    width: 100%; 
+    height: 120px; 
+}
+
+.name:hover {
+    transform: scale(1.1);
+  }
+
+.name {
+    display: inline-flex;
+    position: relative;
+    overflow: hidden; 
+    color: #003DA5; 
+    font-weight: bold;
+    vertical-align: bottom;
+    cursor: default;
+
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-origin: center;
+}
+
+.name::before {
+    content: "方心怡";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transition: top 0.35s cubic-bezier(0.4, 0, 0.2, 1); 
+    font-family: "NSimSun", "KaiTi", serif;
+    color: #53C3EE; 
+}
+
+.name span {
+    display: inline-block;
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+}
+
+.name:hover::before {
+    top: 0;
+}
+
+.name:hover span {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+  @keyframes rainbow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.prof {
+    white-space: nowrap;
+  }
+
+.icon-links {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    margin-top: 10px;
+}
+.icon-links a {
+    text-decoration: none;
+}
+.icon-links img {
+    width: 20px;
+    height: 20px;
+}
