@@ -322,13 +322,9 @@ html[data-theme="dark"] textarea { background: #111214; color: #e3e3e6; border: 
 html[data-theme="dark"] button[type="submit"] { background: #2c4a73; color: #fff; border: 1px solid #44464d; }
 html[data-theme="dark"] #theme-toggle { background: #2a2b30; color: #f5c84c; border-color: #44464d; }
 
-/* Transparent structure diagram needs a light backing on dark backgrounds */
-html[data-theme="dark"] .project .media img[alt="structure"],
-html[data-darkreader-scheme="dark"] .project .media img[alt="structure"] { background: #f4f4f4; border-radius: 10px; padding: 8px; }
-
-/* Meme figure: dark version under the dark theme or Dark Reader */
-.project .media .pub-figure .fig-dark { display: none; }
-html[data-theme="dark"] .project .media .pub-figure .fig-light,
-html[data-darkreader-scheme="dark"] .project .media .pub-figure .fig-light { display: none; }
-html[data-theme="dark"] .project .media .pub-figure .fig-dark,
-html[data-darkreader-scheme="dark"] .project .media .pub-figure .fig-dark { display: block; }
+/* Figures with a dark version: shown under the dark theme or Dark Reader */
+.project .media img.fig-dark { display: none; }
+html[data-theme="dark"] .project .media img.fig-light,
+html[data-darkreader-scheme="dark"] .project .media img.fig-light { display: none; }
+html[data-theme="dark"] .project .media img.fig-dark,
+html[data-darkreader-scheme="dark"] .project .media img.fig-dark { display: block; }
