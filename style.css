@@ -239,3 +239,58 @@ textarea {
     width: 20px;
     height: 20px;
 }
+
+/* Publication links (GitHub / Poster) under each title */
+.pub-links {
+    display: flex;
+    gap: 14px;
+    margin: -4px 0 10px;
+}
+.pub-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9em;
+    color: #555;
+}
+.pub-links a:hover {
+    color: #007BFF;
+    text-decoration: none;
+}
+.pub-links svg {
+    width: 18px;
+    height: 18px;
+}
+
+/* Light/dark summary figure */
+.pub-figure {
+    display: block;
+    width: 100%;
+}
+.project .media .pub-figure img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    max-height: none;
+    height: auto;
+}
+
+/* Dark mode, follows the system setting */
+@media (prefers-color-scheme: dark) {
+    body { background-color: #18191c; color: #e3e3e6; }
+    header { background: #2c4a73; }
+    nav ul, footer { background: #0e0f11; }
+    #sidebar { background-color: #18191c; box-shadow: 2px 0 5px rgba(0,0,0,0.5); }
+    a { color: #6aa8ff; }
+    a:hover { color: #9cc4ff; }
+    .name { color: #7fb0ff; }
+    .Brandeis h3 { color: #7aa7e6; }
+    .WPI h3 { color: #e8818b; }
+    .pub-links a { color: #a9abb2; }
+    .pub-links a:hover { color: #6aa8ff; }
+    .icon-links img[alt="GitHub"], .icon-links img[alt="Email Icon"] { filter: invert(1); }
+    .project .media img[alt="structure"] { background: #f4f4f4; border-radius: 10px; padding: 8px; }
+    #contact { background-color: #25262b; }
+    input, textarea { background: #111214; color: #e3e3e6; border: 1px solid #44464d; }
+    button { background: #2c4a73; color: #fff; border: 1px solid #44464d; }
+}
